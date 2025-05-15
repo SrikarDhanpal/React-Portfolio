@@ -5,7 +5,7 @@ function Hero() {
         <div>
             <section class="home" id="home">
     <div class="home-img">
-        <img src="./assets/mypic.jpg" alt="Image of SrikarDhanpal" />
+        <img src="./assets/srikar.jpg" alt="Image of SrikarDhanpal" />
     </div>
     <div class="home-content">
         <h1>Hi, It's <span>SrikarDhanpal</span></h1>
