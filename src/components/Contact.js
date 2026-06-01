@@ -15,7 +15,7 @@ function contact() {
             class="icon contact-icon email-icon"
             height="96px"
             />
-          <p class="send"><a href="mailto:srikardhanpal0108@gmail.com">Send me a Mail</a></p>
+          <p class="send"><a href="mailto:srikardhanpal0108@gmail.com" rel="noopener noreferrer">Send me a Mail</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -24,7 +24,7 @@ function contact() {
             class="icon contact-icon"
             height="96px"
             />
-          <p class="send"><a href="https://www.linkedin.com/in/srikar-dhanpal-558ba6250/">LinkedIn</a></p>
+          <p class="send"><a href="https://www.linkedin.com/in/srikar-dhanpal-558ba6250/" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
       </div>
     </div>

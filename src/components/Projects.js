@@ -23,7 +23,7 @@ function Projects(){
               <h2>Wanderlust</h2>
               <p>Easily find and bool your perfect hotel</p>
               <button>
-                <a href="https://github.com/SrikarDhanpal/Wanderlust">
+                <a href="https://github.com/SrikarDhanpal/Wanderlust" rel="noopener noreferrer">
                   <img src="/assets/link_white.svg" alt="Open Wanderlust repository" className="link" />
                 </a>
               </button>
@@ -37,7 +37,7 @@ function Projects(){
               <h2>Weather Application</h2>
               <p>Stay updated with real time weather forecasts</p>
               <button>
-                <a href="https://github.com/SrikarDhanpal/Weather-Application">
+                <a href="https://github.com/SrikarDhanpal/Weather-Application" rel="noopener noreferrer">
                   <img src="/assets/link_white.svg" alt="Open Weather Application repository" className="link" />
                 </a>
               </button>
@@ -52,7 +52,7 @@ function Projects(){
               <h2>SimonSays Game</h2>
               <p>Test your memory and reflexes</p>
               <button>
-                <a href="https://github.com/SrikarDhanpal/SimonSays">
+                <a href="https://github.com/SrikarDhanpal/SimonSays" rel="noopener noreferrer">
                   <img src="/assets/link_white.svg" alt="Open SimonSays repository" className="link" />
                 </a>
               </button>
@@ -66,7 +66,7 @@ function Projects(){
               <h2>Medicore</h2>
               <p>A smart healthcare management platform</p>
               <button>
-                <a href="https://github.com/SrikarDhanpal/Medicore">
+                <a href="https://github.com/SrikarDhanpal/Medicore" rel="noopener noreferrer">
                   <img src="/assets/link_white.svg" alt="Open Medicore repository" className="link" />
                 </a>
               </button>
