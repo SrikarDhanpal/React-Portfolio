@@ -45,6 +45,11 @@ function Skills() {
             <h1>ReactJS</h1>
             <p>Basics</p>
           </li>
+          <li>
+            <i class="fa-brands fa-microsoft fa-2xl school-name"></i>
+            <h1>.NET</h1>
+            <p>Intermediate</p>
+          </li>
         </ul>
       </div>
       
