@@ -18,12 +18,12 @@ function Projects(){
             
             className="pcard"
           >
-            <img src="./assets/project3.png" />
+            <img src="./assets/MediCoreImage.png" />
             <div className="p-info">
               <h2>WanderLust</h2>
               <p>Easily find and bool your perfect hotel</p>
               <button>
-                <a href="https://github.com/SrikarDhanpal/Wanderlust">
+                <a href="https://github.com/SrikarDhanpal/MediCore">
                   <img src="/assets/link_white.svg" className="link" />
                 </a>
               </button>
@@ -53,6 +53,20 @@ function Projects(){
               <p>Test your memory and reflexes</p>
               <button>
                 <a href="https://github.com/SrikarDhanpal/SimonSays">
+                  <img src="/assets/link_white.svg" className="link" />
+                </a>
+              </button>
+            </div>
+          </div>
+          <div
+            className="pcard"
+          >
+            <img src="./assets/project3.png" />
+            <div className="p-info">
+              <h2>Medicore</h2>
+              <p>A smart healthcare management platform</p>
+              <button>
+                <a href="https://github.com/SrikarDhanpal/Medicore">
                   <img src="/assets/link_white.svg" className="link" />
                 </a>
               </button>
