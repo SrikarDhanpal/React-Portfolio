@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
+const ROLES = [
+  ".NET Full Stack Developer",
+  "Angular & React Specialist",
+  "ASP.NET Core & REST API Engineer",
+  "250+ LeetCode Solved"
+];
+
 function Hero() {
-  const roles = [
-    ".NET Full Stack Developer",
-    "Angular & React Specialist",
-    "ASP.NET Core & REST API Engineer",
-    "250+ LeetCode Solved"
-  ];
-  
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
-    const currentRole = roles[currentRoleIndex];
+    const currentRole = ROLES[currentRoleIndex];
     let timer;
 
     if (!isDeleting && displayText !== currentRole) {
@@ -28,7 +28,7 @@ function Hero() {
       }, 50);
     } else if (isDeleting && displayText === '') {
       setIsDeleting(false);
-      setCurrentRoleIndex((prev) => (prev + 1) % roles.length);
+      setCurrentRoleIndex((prev) => (prev + 1) % ROLES.length);
     }
 
     return () => clearTimeout(timer);
