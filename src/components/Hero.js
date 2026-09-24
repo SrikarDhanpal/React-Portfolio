@@ -81,6 +81,8 @@ function Hero() {
           </div>
 
           <div className="hero-cta-buttons">
+            <a href="#resume" className="btn btn-primary">View Resume</a>
+            <a href="./assets/Srikar_Dhanpal_Resume_final_ai.docx" className="btn btn-secondary" download="Srikar_Dhanpal_Resume.docx">Download Resume</a>
             <a href="#experience" className="btn btn-primary">View Experience</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
           </div>

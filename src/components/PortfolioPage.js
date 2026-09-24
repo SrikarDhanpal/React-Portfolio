@@ -6,6 +6,7 @@ import Skills from './Skills';
 import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
+import Resume from './Resume';
 
 function PortfolioPage() {
   return (
@@ -13,6 +14,7 @@ function PortfolioPage() {
       <Navbar />
       <main>
         <Hero />
+        <Resume />
         <Experience />
         <Skills />
         <Projects />

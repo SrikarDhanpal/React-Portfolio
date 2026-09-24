@@ -25,6 +25,7 @@ function Navbar() {
         <a href="#home" onClick={closeMenu}>Home</a>
         <a href="#summary" onClick={closeMenu}>Summary</a>
         <a href="#experience" onClick={closeMenu}>Experience</a>
+        <a href="#resume" onClick={closeMenu}>Resume</a>
         <a href="#skills" onClick={closeMenu}>Skills</a>
         <a href="#projects" onClick={closeMenu}>Projects</a>
         <a href="#education" onClick={closeMenu}>Education</a>
