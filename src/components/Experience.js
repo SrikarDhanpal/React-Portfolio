@@ -5,7 +5,7 @@ function Experience() {
     {
       company: "Cognizant Technology Solutions",
       role: "Intern - .NET Full Stack (Angular)",
-      duration: "Jan 2024 - Jun 2024",
+      duration: "Jan 2026 - Jun 2026",
       location: "Enterprise development environment",
       techStack: [
         "C#",
@@ -20,12 +20,9 @@ function Experience() {
         "CI/CD"
       ],
       highlights: [
-        "Completed internship in the .NET Full Stack (Angular) domain.",
-        "Worked with C#, ASP.NET Core, Angular, SQL Server, Entity Framework Core, and REST APIs.",
-        "Developed and enhanced web application features following industry best practices.",
-        "Used Git for version control and Azure DevOps for project management.",
-        "Gained exposure to Agile development, debugging, testing, and CI/CD workflows.",
-        "Collaborated with mentors and team members in an enterprise development environment."
+        "Built and enhanced enterprise web application features using C#, ASP.NET Core, Angular, SQL Server, and Entity Framework Core.",
+        "Designed REST APIs and collaborated with mentors in an Agile team using Git and Azure DevOps.",
+        "Applied backend, API, and delivery practices that support reliable automation and AI product integrations."
       ]
     }
   ];

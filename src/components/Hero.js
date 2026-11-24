@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 
 const ROLES = [
-  ".NET Full Stack Developer",
-  "Angular & React Specialist",
-  "ASP.NET Core & REST API Engineer",
-  "250+ LeetCode Solved"
+  "AI Workflow Automation Builder",
+  "LLM Integration & Orchestration",
+  "n8n Automation Developer",
+  "AI Agents & Data Pipelines"
 ];
 
 function Hero() {
@@ -43,13 +43,13 @@ function Hero() {
           </div>
           <h1>Hi, I'm <span className="highlight-name">Srikar Dhanpal</span></h1>
           <h3 className="typing-container">
-            I build software as a <span className="typing-text">{displayText}<span className="cursor">|</span></span>
+            I build <span className="typing-text">{displayText}<span className="cursor">|</span></span>
           </h3>
 
           <div id="summary" className="summary-box">
             <h4 className="summary-title"><i className="fa-solid fa-user-astronaut"></i> Professional Summary</h4>
             <p className="summary-text">
-              Computer Science undergraduate with internship experience at <strong>Cognizant Technology Solutions</strong> in the <strong>.NET Full Stack (Angular)</strong> domain. Strong foundation in software engineering, OOP, data structures, algorithms, REST APIs, and database management. Hands-on experience with <strong>C#, ASP.NET Core, Angular, SQL Server, Entity Framework Core, Git</strong>, and <strong>Azure DevOps</strong>. Solved <strong>250+ LeetCode problems</strong>.
+              AI and workflow automation focused software engineer building <strong>n8n</strong> workflows that connect webhooks, LLMs, APIs, Slack, and databases to automate triage, enrichment, and routing. Hands-on with <strong>Claude, OpenAI and DeepSeek APIs, structured outputs, tool calling, RAG, Python, FastAPI, PostgreSQL</strong>, and data pipelines. Backed by enterprise software experience at <strong>Cognizant</strong> and a strong full stack engineering foundation.
             </p>
           </div>
 
@@ -82,7 +82,7 @@ function Hero() {
 
           <div className="hero-cta-buttons">
             <a href="#resume" className="btn btn-primary">View Resume</a>
-            <a href="./assets/Srikar_Dhanpal_Resume_final_ai.docx" className="btn btn-secondary" download="Srikar_Dhanpal_Resume.docx">Download Resume</a>
+            <a href="./assets/Srikar_Dhanpal_Resume_Updated.pdf" className="btn btn-secondary" download="Srikar_Dhanpal_Resume.pdf">Download Resume</a>
             <a href="#experience" className="btn btn-primary">View Experience</a>
             <a href="#contact" className="btn btn-secondary">Get In Touch</a>
           </div>
@@ -96,15 +96,15 @@ function Hero() {
           <div className="stat-card stat-card-1">
             <i className="fa-solid fa-trophy"></i>
             <div>
-              <strong>250+</strong>
-              <span>LeetCode Solved</span>
+              <strong>n8n + LLMs</strong>
+              <span>AI Workflow Automation</span>
             </div>
           </div>
           <div className="stat-card stat-card-2">
             <i className="fa-solid fa-briefcase"></i>
             <div>
               <strong>Cognizant</strong>
-              <span>.NET Full Stack Intern</span>
+              <span>Enterprise Software Intern</span>
             </div>
           </div>
         </div>

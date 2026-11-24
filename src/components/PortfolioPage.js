@@ -14,10 +14,10 @@ function PortfolioPage() {
       <Navbar />
       <main>
         <Hero />
-        <Resume />
-        <Experience />
-        <Skills />
         <Projects />
+        <Skills />
+        <Experience />
+        <Resume />
         <About />
         <Contact />
       </main>

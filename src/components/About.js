@@ -10,9 +10,9 @@ function About() {
 
   const achievements = [
     "Solved 250+ coding problems on LeetCode.",
-    "Built multiple full-stack web applications.",
-    "Strong problem-solving and analytical skills.",
-    "Adaptable to new technologies, tools, and development workflows."
+    "Built AI workflow automations, agentic applications, and data pipelines.",
+    "Solved 250+ coding problems on LeetCode.",
+    "Brings enterprise full-stack experience to reliable AI product engineering."
   ];
 
   return (

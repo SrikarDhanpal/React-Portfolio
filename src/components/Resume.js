@@ -1,6 +1,6 @@
 import React from 'react';
 
-const resumeUrl = './assets/Srikar_Dhanpal_Resume_final_ai.docx';
+const resumeUrl = './assets/Srikar_Dhanpal_Resume_Updated.pdf';
 
 function Resume() {
   return (
@@ -18,7 +18,7 @@ function Resume() {
             <p>Hyderabad, India · 91-9110363793 · srikardhanpal0108@gmail.com</p>
             <p>linkedin.com/in/srikar-dhanpal · github.com/SrikarDhanpal · srikardhanpal.dev</p>
           </div>
-          <a className="btn btn-primary resume-download" href={resumeUrl} download="Srikar_Dhanpal_Resume.docx">
+          <a className="btn btn-primary resume-download" href={resumeUrl} download="Srikar_Dhanpal_Resume.pdf">
             <i className="fa-solid fa-download" aria-hidden="true"></i> Download Resume
           </a>
         </header>
@@ -26,7 +26,7 @@ function Resume() {
         <div className="resume-content">
           <section>
             <h4>Summary</h4>
-            <p>Full-stack developer (.NET, Angular, React, Python) transitioning into AI Engineering, with hands-on experience building LLM-powered applications using the OpenAI and Claude APIs. Combines production-grade backend and API design skills with growing expertise in prompt engineering, RAG, and agentic AI workflows.</p>
+            <p>AI and workflow automation focused software engineer building n8n automations that connect webhooks, LLMs, APIs, Slack, and databases. Experienced with structured LLM outputs, tool calling, agentic workflows, RAG, Python data pipelines, and enterprise REST API development.</p>
           </section>
           <section>
             <h4>Experience</h4>
@@ -45,6 +45,10 @@ function Resume() {
           </section>
           <section>
             <h4>Projects</h4>
+            <p><strong>AI Lead Qualification &amp; Routing Engine</strong> | n8n, Gemini, Google Sheets, REST APIs</p>
+            <ul><li>Built a validated, idempotent lead pipeline with HTTP error responses; enriched company profiles through website fetches and Gemini structured extraction, with retries and graceful failure handling.</li><li>Combined LLM fit and intent scores with objective rules to assign hot, warm, and cold tiers, storing score reasoning for auditability.</li></ul>
+            <p><strong>Real-Time AI Support Triage &amp; Escalation Automation</strong> | n8n, Claude API, PostgreSQL, Slack</p>
+            <ul><li>Automated request classification, priority routing, Slack escalations, PostgreSQL logging, scheduled digests, retries, and failure alerts.</li></ul>
             <p><strong>Autonomous ReAct-Based AI Agent</strong> · Python, Groq API, ReAct Framework</p>
             <ul><li>Built an autonomous agent with custom tools for file system manipulation and shell execution, using a recursive reasoning loop to break down goals and refine its approach.</li></ul>
             <p><strong>Script to Screen – Article to Video Generator</strong> · Python, LangChain, OpenAI API, Streamlit</p>
@@ -59,14 +63,14 @@ function Resume() {
             <p><strong>Languages:</strong> C#, Java, JavaScript, TypeScript, Python, SQL</p>
             <p><strong>Frameworks:</strong> ASP.NET Core, ASP.NET MVC, ASP.NET Web API, Angular, React, Entity Framework Core, LINQ, JWT Auth</p>
             <p><strong>Databases:</strong> SQL Server, MySQL, MongoDB</p>
-            <p><strong>Tools:</strong> Git, GitHub, Azure DevOps, Docker, Postman, Swagger, Claude Code</p>
+            <p><strong>Tools:</strong> n8n, Docker, Git, GitHub, Azure DevOps, Postman, Swagger</p>
             <p><strong>Concepts:</strong> Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, Computer Networks, Clean Architecture</p>
           </section>
           <section>
             <h4>AI Engineering Skills</h4>
-            <p><strong>LLMs &amp; APIs:</strong> OpenAI API, Claude API (Anthropic), prompt engineering, function/tool calling</p>
+            <p><strong>LLMs &amp; APIs:</strong> OpenAI, Claude, DeepSeek, Gemini; prompt engineering, structured JSON, function/tool calling</p>
             <p><strong>Frameworks &amp; patterns:</strong> LangChain, Retrieval-Augmented Generation (RAG), agentic AI workflows</p>
-            <p><strong>ML/Data:</strong> Python for AI/ML, pandas, data profiling and validation, SQL-based analysis</p>
+            <p><strong>Automation &amp; Data:</strong> n8n webhooks, schedules, LLM nodes, API integrations, retries, Python, pandas, SQL, Databricks, Spark, Delta Lake</p>
           </section>
           <section>
             <h4>Certifications &amp; Achievements</h4>
